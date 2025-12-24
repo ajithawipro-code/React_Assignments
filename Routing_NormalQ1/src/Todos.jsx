@@ -10,9 +10,9 @@ function Todos() {
   }, []);
 
   return (
-    <div>
+    <div className="todo-container">
       {todos.map(todo => (
-        <div key={todo.id}>
+        <div key={todo.id} className="todo-card">
           <p>{todo.title}</p>
           <p>{todo.completed ? "Completed" : "Not Completed"}</p>
         </div>

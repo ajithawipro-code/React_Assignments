@@ -4,6 +4,7 @@ import Home from "./Home";
 import AboutUs from "./AboutUs";
 import Todos from "./Todos";
 import NotFound from "./NotFound";
+import './App.css'
 
 function App() {
   return (
